@@ -11,6 +11,11 @@ namespace MyFirstProgram
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World");
+
+            SportsCar c = new SportsCar();
+            c.myMethod();
+
+            Console.ReadLine();
         }
     }
 }
